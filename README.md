@@ -1,4 +1,5 @@
-# DocuSign PHP Client 
+# THIS IS FORK of original Docusign SDK. It contains important bug fixes for this framework.
+# DocuSign PHP Client.
 
 You can sign up for a free [developer sandbox](https://www.docusign.com/developer-center).
 

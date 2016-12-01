@@ -6,6 +6,6 @@
         }
     ],
     "require": {
-        "docusign/esign-client": "dev-fixInternalNames"
+        "docusign/esign-client": "dev-master"
     }
 }

@@ -309,7 +309,7 @@ class FoldersApi
 
     
     /**
-     * list
+     * listFolders
      *
      * Gets a list of the folders for the account.
      *
@@ -318,7 +318,7 @@ class FoldersApi
      * @return \DocuSign\eSign\Model\FoldersResponse
      * @throws \DocuSign\eSign\ApiException on non-2xx response
      */
-    public function list($account_id)
+    public function listFolders($account_id)
     {
         list($response, $statusCode, $httpHeader) = $this->listWithHttpInfo ($account_id);
         return $response; 
